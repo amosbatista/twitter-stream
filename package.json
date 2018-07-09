@@ -1,0 +1,17 @@
+{
+  "name": "twitter-stream",
+  "version": "1.0.0",
+  "description": "Read the twitter stream, searching a list of terms. Return the stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require babel-register --reporter spec || exit 0"
+  },
+  "author": "Amós Batista",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
